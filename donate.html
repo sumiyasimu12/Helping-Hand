@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hand - Donate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Helping Hand</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="donate.html">Donate</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Make a Donation</h2>
+    <p>Your generous donation helps us provide essential resources to those in need. Together, we can bring hope and joy to communities.</p>
+    <form action="submit_donation.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="amount">Donation Amount:</label><br>
+        <input type="number" id="amount" name="amount" required><br><br>
+        
+        <button type="submit" class="btn">Donate Now</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Helping Hand. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+</footer>
+
+</body>
+</html>
